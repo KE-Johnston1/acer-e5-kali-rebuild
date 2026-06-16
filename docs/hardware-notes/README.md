@@ -9,9 +9,9 @@ This section documents the hardware characteristics, limitations, and considerat
 **Model:** Acer Aspire E5‑571‑3952  
 **Release era:** 2014–2015 (pre‑TPM hardware)  
 **CPU:** Intel Core i3 (4th Gen)  
-**RAM:** 4–8 GB depending on configuration  
-**Storage:** SATA HDD/SSD (user‑replaceable)  
-**Graphics:** Integrated Intel HD Graphics  
+**RAM:** 8 GB DDR3  
+**Storage:** 1000 GB HDD 
+**Graphics:** Integrated Intel HD Graphics 4400 up to 1792 MB Dynamic Video Memory 
 **Firmware:** InsydeH2O UEFI BIOS  
 
 This is a legacy laptop by modern standards, but still fully capable of running lightweight Linux distributions.
