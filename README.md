@@ -1,19 +1,20 @@
+
 # Acer E5‑571 Rebuild Project  
-**From locked‑out Windows 10 laptop to fully functional Kali Linux system**
+**From locked‑out Windows 10 laptop to a fully functional Kali Linux system**
 
-This repository documents the complete rebuild of an Acer Aspire E5‑571‑3952.  
-The laptop was originally locked out of Windows 10 with no recovery options, unable to run Windows 11 due to missing TPM, and considered “end of life”. Instead of discarding it, I repurposed it into a fully working Kali Linux machine.
+This repository documents the complete rebuild of an Acer Aspire E5‑571‑3952 — a machine that was locked out of Windows 10, unable to run Windows 11 due to missing TPM, and considered “end of life”. Instead of discarding it, I rebuilt it into a fully working Kali Linux system.
 
-This project demonstrates practical IT support skills, hardware troubleshooting, OS deployment, and real‑world problem‑solving on a limited budget.
+This project demonstrates practical IT support skills, BIOS troubleshooting, USB boot repair, OS deployment, and real‑world problem‑solving on a limited budget.
 
 ---
 
 ## 🔧 Project Goals
+
 - Recover and repurpose legacy hardware  
 - Troubleshoot BIOS access issues  
 - Repair USB boot functionality  
 - Wipe Windows 10 and install Kali Linux  
-- Document every step clearly and professionally  
+- Document the rebuild clearly and professionally  
 - Build practical experience toward IT Support & Cybersecurity roles  
 
 ---
@@ -21,19 +22,19 @@ This project demonstrates practical IT support skills, hardware troubleshooting,
 ## 📁 Repository Structure
 
 ### **1. BIOS Access Troubleshooting**  
-How I gained access to BIOS when the system kept booting straight into Windows login.  
+How I gained access to BIOS when the laptop kept booting straight into Windows.  
 ➡️ `docs/bios-access/`
 
 ### **2. USB Boot Repair**  
-Fixing the Acer’s inconsistent USB boot behaviour and enabling Kali installation.  
+Fixing the Acer’s inconsistent USB boot behaviour and enabling the Kali installer.  
 ➡️ `docs/usb-boot/`
 
 ### **3. Kali Linux Installation**  
-Wiping Windows 10, preparing the installer, and completing the OS deployment.  
+Preparing the USB, wiping Windows 10, and installing Kali Linux 2026.  
 ➡️ `docs/installation/`
 
 ### **4. Post‑Install Configuration**  
-Initial setup after first boot into Kali Linux.  
+Ethernet setup, system updates, essential tools, and first‑boot checks.  
 ➡️ `docs/post-install/`
 
 ### **5. Hardware Notes**  
@@ -41,27 +42,40 @@ System limitations, lack of TPM, BIOS quirks, and why Kali Linux was chosen.
 ➡️ `docs/hardware-notes/`
 
 ### **6. Process Notes**  
-How long the rebuild took, what I researched, how AI assisted, and what I learned.  
+A chronological breakdown of decisions, challenges, research, and lessons learned.  
 ➡️ `docs/process-notes/`
 
 ---
 
 ## 🧠 Why This Project Matters
-This rebuild shows:
+
+This rebuild demonstrates:
 
 - Practical IT support capability  
-- Ability to diagnose and fix hardware/firmware issues  
-- Confidence working with BIOS, bootloaders, and OS installers  
+- Ability to diagnose and fix firmware/boot issues  
+- Confidence working with BIOS, UEFI, and OS installers  
 - Adaptability when hardware is limited  
 - Resourcefulness using open‑source tools  
-- Clear technical documentation skills  
+- Clear, structured technical documentation  
 - Motivation to learn and grow in cybersecurity  
 
-This is the kind of hands‑on work that builds real experience.
+This is real, hands‑on experience — not a simulated lab.
+
+---
+
+## 🔮 Future Improvements
+
+The project is largely complete.  
+The only planned addition is:
+
+- **Wi‑Fi troubleshooting and Broadcom driver installation**
+
+All other elements (commands, logs, scripts) are already represented naturally throughout the documentation.
 
 ---
 
 ## 📍 About Me
+
 I’m based in **Margate** and open to:
 
 - Entry‑level IT Support  
@@ -69,5 +83,4 @@ I’m based in **Margate** and open to:
 - Hybrid, remote, or Central London opportunities  
 
 If you’re hiring and want someone who learns fast, solves problems, and documents clearly — feel free to reach out.
-
 
