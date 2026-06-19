@@ -1,9 +1,7 @@
-
 # Acer E5‑571 Rebuild Project  
 **From locked‑out Windows 10 laptop to a fully functional Kali Linux system**
 
-This repository documents the complete rebuild of an Acer Aspire E5‑571‑3952 — a machine that was locked out of Windows 10, unable to run Windows 11 due to missing TPM, and considered “end of life”. Instead of discarding it, I rebuilt it into a fully working Kali Linux system.
-
+This repository documents the complete rebuild of an Acer Aspire E5‑571‑3952 — a machine that was locked out of Windows 10, unable to run Windows 11 due to missing TPM, and considered “end of life”. Instead of discarding it, I rebuilt it into a fully working Kali Linux system.  
 This project demonstrates practical IT support skills, BIOS troubleshooting, USB boot repair, OS deployment, and real‑world problem‑solving on a limited budget.
 
 ---
@@ -45,6 +43,10 @@ System limitations, lack of TPM, BIOS quirks, and why Kali Linux was chosen.
 A chronological breakdown of decisions, challenges, research, and lessons learned.  
 ➡️ `docs/process-notes/`
 
+### **7. Wi‑Fi Issue Solved**  
+A dedicated update explaining how the Wi‑Fi issue was resolved after installation.  
+➡️ `docs/wifi-issue-solved/`
+
 ---
 
 ## 🧠 Why This Project Matters
@@ -63,24 +65,24 @@ This is real, hands‑on experience — not a simulated lab.
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Current Status
 
-The project is largely complete.  
-The only planned addition is:
+The rebuild is complete.  
+All major issues — including BIOS access, USB boot, installation, Ethernet, and Wi‑Fi — have been fully resolved.
 
-- **Wi‑Fi troubleshooting and Broadcom driver installation**
-
-All other elements (commands, logs, scripts) are already represented naturally throughout the documentation.
+No further improvements are planned at this time.
 
 ---
 
 ## 📍 About Me
 
-I’m based in **Margate** and open to:
+I’m based in Margate and open to:
 
 - Entry‑level IT Support  
 - Junior Cybersecurity roles  
 - Hybrid, remote, or Central London opportunities  
 
 If you’re hiring and want someone who learns fast, solves problems, and documents clearly — feel free to reach out.
+
+
 
